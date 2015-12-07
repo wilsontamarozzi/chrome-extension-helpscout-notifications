@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Configuracao HelpScout</title>
+		<link rel="stylesheet" href="/lib/bootstrap-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+	<body>
+		
+		<div id="config" class="container">
+			<div class="form-group">
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="status"></div>
+						<label class="control-label">API Key</label>
+		               	<input id="apikey" type="text" class="form-control" />
+					</div>
+				</div>
+			</div>
+		
+			<div class="form-group">			
+				<div class="row">
+					<div class="col-xs-12">
+					<div>
+						<button id="btnLerAPI" class="btn btn-primary">Ler API</button>
+						<button id="btnSalvar" class="btn btn-success">Salvar</button>
+						<button id="btnReset" class="btn btn-danger">Reset</button>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="tree well">
+			    <ul class="mailboxes"></ul>
+			</div>
+
+		</div>
+			
+		<script src="/lib/jquery/jquery-1.11.3.min.js"></script>
+		<script src="/lib/bootstrap-dist/js/bootstrap.min.js"></script>
+		<script src="/js/tree.js"></script>
+		<script src="/js/helpscout.js"></script>
+		<script src="/js/options.js"></script>
+	</body>
+</html>

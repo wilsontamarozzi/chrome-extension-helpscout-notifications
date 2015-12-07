@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "Help Scout",
+	"description": "Alerta de E-mail",
+	"version": "2",
+	"author" : "Wilson Tamarozzi Junior",
+	"options_page": "/view/options.html",
+	"icons": {
+		"16": "/image/icon-16.png",
+		"48": "/image/icon-48.png",
+		"128": "/image/icon-128.png"
+	},
+	"permissions": [
+    	"storage",
+    	"tabs",
+    	"contextMenus",
+    	"activeTab"
+  	],
+	"browser_action": {
+		"default_title": "Help Scout"
+	},
+	"background": {
+    	"scripts": [
+    		"/lib/jquery/jquery-1.11.3.min.js",
+    		"/js/helpscout.js",
+    		"/js/contextMenus.js",
+    		"/js/background.js"
+    	]
+  	}
+}
